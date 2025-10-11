@@ -1,0 +1,6 @@
+.topbar { background: #f5f6f7; border-bottom: 1px solid #e5e7eb; font-size: 13px; }
+.topbar-inner { display: flex; justify-content: space-between; align-items: center; height: 36px; }
+.topbar-links a { color: #4b5563; }
+.topbar-links a:hover { color: #111827; }
+.topbar .sep { margin: 0 8px; color: #9ca3af; }
+.topbar-info { color: #6b7280; }

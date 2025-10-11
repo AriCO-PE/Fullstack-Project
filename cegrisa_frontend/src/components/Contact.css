@@ -1,0 +1,11 @@
+.contact-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 28px; margin-top: 28px; }
+.form { display: grid; gap: 12px; }
+.label { font-size: 14px; font-weight: 600; }
+.info-title { font-size: 18px; font-weight: 700; margin: 0 0 8px; }
+.info-list { display: grid; gap: 10px; margin: 12px 0 16px; }
+.schedule ul { display: grid; gap: 8px; }
+.schedule li { display: flex; justify-content: space-between; }
+
+@media (max-width: 900px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}

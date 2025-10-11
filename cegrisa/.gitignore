@@ -1,0 +1,66 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Entorno virtual
+venv/
+env/
+.venv/
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Variables de entorno
+.env
+*.env
+
+# Archivos estáticos y media
+/staticfiles/
+media/
+tmp/
+
+
+# Migraciones (opcional: sube solo __init__.py)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# === Docker ===
+docker-compose.override.yml
+*.dockerignore
+*.log
+# Docker volumes y datos temporales
+**/data/
+**/tmp/
+
+# === IDEs / editores ===
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Pruebas y cobertura ===s
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# === Otros archivos temporales ===
+*.bak
+*.tmp

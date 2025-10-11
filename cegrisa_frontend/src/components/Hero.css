@@ -1,0 +1,12 @@
+.hero { background: #ffffff; }
+.hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 32px; align-items: center; }
+.hero-copy { padding: 48px 0; }
+.hero-title { font-size: 40px; font-weight: 800; margin: 8px 0 12px; }
+.hero-sub { font-size: 18px; color: #6b7280; max-width: 560px; }
+.hero-actions { margin-top: 24px; display: flex; gap: 16px; align-items: center; }
+.hero-image img { width: 100%; height: auto; border-radius: 12px; object-fit: cover; }
+
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-title { font-size: 34px; }
+}

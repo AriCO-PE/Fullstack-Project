@@ -1,0 +1,3 @@
+.brands { background: #f3f4f6; }
+.brands-strip { background: #3f4551; padding: 16px; display: flex; gap: 12px; overflow-x: auto; }
+.brand-pill { color: #e5e7eb; border: 1px solid #6b7280; padding: 10px 14px; white-space: nowrap; }

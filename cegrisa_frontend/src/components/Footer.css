@@ -1,0 +1,8 @@
+.site-footer { background: #0b1220; color: #cbd5e1; padding: 40px 0; margin-top: 40px; }
+.footer-nav { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; }
+.footer-link { color: #cbd5e1; font-size: 14px; }
+.footer-link:hover { color: #ffffff; }
+.footer-social { margin-top: 16px; display: flex; justify-content: center; gap: 16px; }
+.social-link .icon { width: 24px; height: 24px; color: #94a3b8; }
+.social-link:hover .icon { color: #ffffff; }
+.copyright { margin-top: 16px; text-align: center; font-size: 12px; color: #94a3b8; }

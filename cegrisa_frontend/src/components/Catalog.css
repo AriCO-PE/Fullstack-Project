@@ -1,0 +1,9 @@
+.block-title { font-size: 18px; font-weight: 800; border-bottom: 1px solid #e5e7eb; padding-bottom: 10px; margin-bottom: 16px; }
+.catalog-grid { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 12px; }
+.catalog-tile { background: #ffffff; border: 1px solid #e5e7eb; text-align: center; }
+.tile-media { height: 88px; display: flex; align-items: center; justify-content: center; background: #f9fafb; }
+.tile-media img { width: 64px; height: 64px; object-fit: cover; }
+.tile-label { font-size: 13px; padding: 10px; color: #374151; border-top: 1px solid #e5e7eb; }
+
+@media (max-width: 1024px) { .catalog-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .catalog-grid { grid-template-columns: repeat(2, 1fr); } }

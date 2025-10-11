@@ -1,0 +1,5 @@
+.promobar { background: #fff8db; border-bottom: 1px solid #f5e6a3; }
+.promobar-inner { display: flex; justify-content: space-between; align-items: center; height: 56px; }
+.promo-text { color: #7c6f25; font-weight: 600; }
+.promo-cta { background: #ef4444; color: #fff; padding: 8px 12px; font-weight: 700; border-radius: 4px; }
+.promo-cta:hover { background: #dc2626; }
