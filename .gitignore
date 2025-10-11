@@ -1,0 +1,87 @@
+# === Backend (Python / Django) ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Variables de entorno
+.env
+*.env
+
+# Archivos estáticos y media
+/staticfiles/
+media/
+tmp/
+
+# Migraciones (opcional: subir solo __init__.py)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# === Docker ===
+docker-compose.override.yml
+*.dockerignore
+**/data/
+**/tmp/
+media_data/
+postgres_data/
+
+# === IDEs / editores ===
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Pruebas y cobertura ===
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# === Otros archivos temporales ===
+*.bak
+*.tmp
+
+# === Frontend (React / Node) ===
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
